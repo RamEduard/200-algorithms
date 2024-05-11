@@ -1,0 +1,15 @@
+{
+  "name": "200-algorithms-javascript",
+  "version": "1.0.0",
+  "description": "200 Algorithms Project - JavaScript",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Ramon Serrano <rameduardserrano@gmail.com>",
+  "license": "GPL-3.0",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
