@@ -12,7 +12,19 @@
  */
 
 function twoNumberSum(inputArray, targetSum) {
-    
+    for (let i = 0; i < inputArray.length - 1; i++) {
+        const firstNum = inputArray[i]
+
+        for (let j = i + 1; j < inputArray.length; j++) {
+            const secondNum = inputArray[j]
+
+            if (firstNum + secondNum === targetSum) {
+                return [firstNum, secondNum]
+            }
+        }
+    }
+
+    return []
 }
 
 module.exports = twoNumberSum

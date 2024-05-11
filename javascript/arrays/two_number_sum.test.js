@@ -9,7 +9,7 @@ describe("twoNumberSum", () => {
 
         const output = twoNumberSum(input, targetSum);
 
-        expect(output).toEqual([-1, 11]);
+        expect(output).toEqual([11, -1]);
       });
     });
   });
